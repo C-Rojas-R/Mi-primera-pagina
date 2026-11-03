@@ -1,0 +1,93 @@
+.titulo{
+    font-family:cursive;
+    color: darkred;
+    text-align: center;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(173, 210, 252);
+    margin: 30px;
+}
+.titulo2{
+    color: darkgoldenrod;
+    font-family: cursive;
+}
+hr{
+    height: 3px;
+    border: none;
+    background-color: gold;
+}
+p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+pre{
+    background-color: rgb(19, 194, 179);
+    padding: 15px;
+    border-left: 5px solid blue;
+}
+ul{
+    background-color: darkgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+ol{
+    background-color:burlywood ;
+    padding: 20px;
+    border-radius: 10px;
+}
+li{
+    margin-bottom: 10px;
+}
+img{
+    display: block;
+    margin: auto;
+    border: 3px solid gold;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px gold;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px rgb(219, 0, 0);
+}
+label{
+    font-weight: bold;
+    color: rgb(100, 28, 28);
+}
+input[type="text"],
+input[type="email"]{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+select{
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+textarea{
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+}
+input[type="submit"]
+{
+    background-color: darkred;
+    color: rgb(243, 243, 243);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    background-color: indigo;
+}
